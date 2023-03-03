@@ -145,10 +145,19 @@ list-style: none;
 .endd{
     background-color: #282832;
     width: 100%;
-    position: relative;
+    /* position: relative; */
     height: 860px;
+    
     /* border: 2px solid black; */
 }
+
+
+/* element.style { */
+    /* display: flex; */
+    /* position: absolute; */
+    /* top: -56px; */
+    /* bottom: 8px; */
+/* } */
 .meta{
     color: white;
     border: 1px solid  #363543;
@@ -191,6 +200,11 @@ list-style: none;
 
     .mainDIv{
         /* border: 2px solid   #363543; */
+
+        
+    position: absolute;
+    top: 600px;
+   
         padding: 40px;
         background-color: #9897a5;
         width: 1100px;
@@ -199,7 +213,7 @@ list-style: none;
 
     .text{
         color: white;
-        margin-top: 50px;
+        margin-top: 150px;
     }
  .what{
     font-size: 40px;
